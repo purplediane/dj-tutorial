@@ -1,0 +1,15 @@
+{% load staticfiles %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}" />
+
+<h1>Poll results</h1>
+<h2>{{ question.question_text }}</h2>
+<ul>
+{% for choice in question.choice_set.all %}
+    <li>{{ choice.choice_text }} has {{ choice.votes }} vote{{ choice.votes|pluralize }}</li>
+{% endfor %}
+</ul>
+
+<a href="{% url 'polls:detail' question.id %}">Vote again?</a>
+<br />
+<a href="{% url 'polls:index' %}">Return to List of Questions</a>
