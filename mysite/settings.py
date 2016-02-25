@@ -29,10 +29,8 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
-# 2016-02-25: added PollsConfig per 1.9 tutorial,
-#   but maybe should remove the polls at the end????
+
 INSTALLED_APPS = (
-    'polls.apps.PollsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
