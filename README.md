@@ -6,4 +6,4 @@ Not finished yet - still much more to go.
 
 Started with Django 1.8, so I've stuck with 1.8 for now.
 
-This now lives at http://purplediane.pythonanywhere.com/polls/ Yippee!
+This sometimes lives at http://purplediane.pythonanywhere.com/polls/. If you get an error, then I've moved it out for other play; see what's at http://purplediane.pythonanywhere.com/. 🖥
